@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-color: rgba(32, 32, 207, 0.507);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.start-btn {
+    background-color: rgb(25, 54, 92);
+    color: white;
+    width: 150px;
+    height: 75px;
+    margin: 10px auto;
+    border-radius: 50px;
+    font-size: medium;
+    border: none;
+}
+.start-btn:hover{
+    cursor: pointer;
+font-size: large;
+border: 2px solid black;
+
+}
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: 15px auto;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #381a43;
+}
+
+.box-container:hover {
+    background-color: #273239a9;
+    transition: background-color 2s;
+}
+.first-div, .second-div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(8, 12, 214);
+}
+
+
+
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border:2px solid navy;
+}
+
+
+.color-white{
+    color: white;
+
+}
+.green {
+    background-color: #00a74a;
+}
+
+.red {
+    background-color: #9f0f17;
+}
+
+.yellow {
+    background-color: #f2d013;
+}
+
+.blue {
+    background-color: #094a8f;
+}
+
+.flash{
+    background-color: rgb(251, 10, 171);
+}
+
+.userColor{
+    background-color: rgb(22, 177, 211)
+}
